@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="586.0" prefWidth="451.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <TextField fx:id="nom1" layoutX="12.0" layoutY="102.0" prefHeight="40.0" prefWidth="173.0" promptText="nom" />
+            <TextField fx:id="prenom1" layoutX="10.0" layoutY="182.0" prefHeight="40.0" prefWidth="174.0" promptText="prénom" />
+            <TextField fx:id="rr" layoutX="11.0" layoutY="260.0" prefHeight="40.0" prefWidth="174.0" promptText="role" />
+            <PasswordField fx:id="password1" layoutX="11.0" layoutY="431.0" prefHeight="40.0" prefWidth="174.0" promptText="password" />
+            <TextArea prefHeight="47.0" prefWidth="451.0" text="  Veuillez remplir le formulaire pour ajouter un employé">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </TextArea>
+            <Button  onAction="#handleAjouterEmploye" layoutX="175.0" layoutY="505.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="123.0" text="Ajouter" />
+            <TextField fx:id="email1" layoutX="14.0" layoutY="339.0" prefHeight="40.0" prefWidth="174.0" promptText="email" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

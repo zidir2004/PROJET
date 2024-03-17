@@ -1,0 +1,83 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root {
+-fx-background-image: url("file:///C:/Users/dell/eclipse-workspace/erp_gestion_user/src/application/back1.png");
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+}
+/* styles.css */
+
+/* Boutons pour chaque rôle */
+.role-button {
+    -fx-font-size: 18;
+    -fx-min-width: 200px;
+    -fx-min-height: 80px;
+    -fx-background-color: #E0E0E0;
+    -fx-text-fill: #333333;
+    -fx-border-radius: 5;
+}
+
+.role-button:hover {
+    -fx-background-color: #BDBDBD;
+}
+
+/* Barre supérieure */
+.top-bar {
+    -fx-background-color: #212121;
+    -fx-padding: 10;
+}
+
+/* Titre de la barre supérieure */
+.top-bar-title {
+    -fx-font-size: 24;
+    -fx-fill: white;
+}
+
+
+.left-form{
+    -fx-background-color:linear-gradient(to bottom right, #272b3f, #256b51);
+    -fx-border-color:#000;
+    -fx-border-width:.4px 0px .4px .4px;
+}
+
+.right-form{
+    -fx-background-color:#fff;
+    -fx-border-color:#000;
+    -fx-border-width:.4px .4px .4px 0px;
+}
+
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+.close:hover{
+    -fx-background-color:#ff3547;
+}
+
+.textfield{
+    -fx-background-color:linear-gradient(to bottom, #efefef, #eee);
+    -fx-background-radius:4px;
+    -fx-border-color:#000;
+    -fx-border-width:.4px;
+    -fx-border-radius:4px;
+    -fx-font-size:13px;
+    -fx-font-family:"Arial";
+    
+}
+.textfield:focused{
+    -fx-background-color:#fff;
+    -fx-border-color:linear-gradient(to bottom right, #272b3f, #256b51);
+    -fx-border-width:.8px;
+}
+
+.login-btn{
+    -fx-background-color:linear-gradient(to bottom, #278f96,#2d645f);
+    -fx-background-radius:5px;
+    -fx-text-fill:#fff;
+    -fx-font-size:14px;
+    -fx-font-family:"Arial";
+    -fx-cursor:hand;
+}
+.login-btn:hover{
+    -fx-background-color:linear-gradient(to bottom, #21a7ae,#368981);
+}
